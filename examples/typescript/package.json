@@ -11,8 +11,8 @@
     "@emotion/styled": "^10.0.5",
     "docz": "^0.12.17",
     "docz-core": "^0.12.16",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
   },
   "devDependencies": {
     "babel-plugin-emotion": "^10.0.5"
