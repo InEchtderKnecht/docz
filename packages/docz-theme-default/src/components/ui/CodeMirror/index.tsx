@@ -69,7 +69,14 @@ const scrollbarOpts = {
   suppressScrollX: true,
 }
 
-export const CodeMirror: SFC<any> = props => (
+interface CodeMirrorProps {
+  value: string
+  options?: any
+  editorDidMount?: (editor: any) => any
+  onBeforeChange?: (editor: any, data: any, code: string) => any
+}
+
+export const CodeMirror: SFC<CodeMirrorProps> = props => (
   <Scrollbar option={scrollbarOpts}>
     {global}
     <EditorStyled {...props} />
